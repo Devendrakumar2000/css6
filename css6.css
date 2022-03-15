@@ -1,0 +1,49 @@
+.bg{position: absolute;z-index: -1;
+    width: 1370px; height: 670px;margin: 0px;
+}
+.logo{
+    width: 80px; height: 30px;position: absolute;
+    margin-top: 20px;margin-left: 1200px;
+}
+.text{z-index: 1;position: absolute;margin-top: 200px;
+    display: grid;grid-template-columns: auto;margin-left: 50px;
+    text-align: center;
+}
+p{width: 500px;text-align: center;
+    display: inline-block;
+}
+ol{z-index: 1;float: right;
+    list-style: none;position: absolute;display: flex;float:right; column-gap: 30px;
+}
+.cards{
+display: grid;grid-template-columns: auto auto;
+gap: 90px;position: absolute;margin-top: 100px;margin-left: 900px;
+}
+.card1{ width: 180px;height: 200px; border: 2px solid black;border-radius: 5px;
+    background-repeat: no-repeat;z-index: 1;
+    background-image: url("./card1.png");
+}
+.card1:hover{
+    transform: translate(2px,-5px);
+}
+.card2{ width: 180px;height: 200px; border: 2px solid black;border-radius: 5px;
+    background-image: url("./card2.png");
+}
+
+.card2:hover{
+    transform: translate(2px,-5px);
+}
+.card3{ width: 180px;height: 200px; border: 2px solid black;border-radius: 5px;
+background-image: url("./card3.png");  
+   
+}
+.card3:hover{
+    transform: translate(2px,-5px);
+}
+.card4{ width: 180px;height: 200px; border: 2px solid black;border-radius: 5px;
+        
+        background-image: url("./card4.png");
+}
+.card4:hover{
+    transform: translate(2px,-5px);
+}
